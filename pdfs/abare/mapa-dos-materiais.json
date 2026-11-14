@@ -1,0 +1,276 @@
+{
+  "source_pages": 46,
+  "source_sha256": "ee3c158de8a1a925e76fa6378d653dc851882c9c3f196fcc2c3feef16598d7f6",
+  "materials": [
+    {
+      "id": "caderno-completo",
+      "title": "Caderno didático completo",
+      "start": 1,
+      "end": 46,
+      "pages": 46,
+      "file": "pdfs/abare/caderno-completo.pdf",
+      "bytes": 7202784,
+      "sha256": "ee3c158de8a1a925e76fa6378d653dc851882c9c3f196fcc2c3feef16598d7f6"
+    },
+    {
+      "id": "00-apresentacao-e-sumario",
+      "title": "Capa, créditos, sumário e apresentação",
+      "start": 1,
+      "end": 6,
+      "pages": 6,
+      "file": "pdfs/abare/00-apresentacao-e-sumario.pdf",
+      "bytes": 725343,
+      "sha256": "6ea03a641d82a1329dac25bd2254304cab61f001279533a5b92384522c2ca24e"
+    },
+    {
+      "id": "01-parte-i-guia-do-professor",
+      "title": "Parte I — Guia do professor completo",
+      "start": 7,
+      "end": 36,
+      "pages": 30,
+      "file": "pdfs/abare/01-parte-i-guia-do-professor.pdf",
+      "bytes": 6202020,
+      "sha256": "015fc6576041d6fe3f8b4bd9d008116032bf7d96de3767bb9b0ac22d39298410"
+    },
+    {
+      "id": "02-parte-ii-material-do-estudante",
+      "title": "Parte II — Material do estudante completo",
+      "start": 37,
+      "end": 46,
+      "pages": 10,
+      "file": "pdfs/abare/02-parte-ii-material-do-estudante.pdf",
+      "bytes": 391726,
+      "sha256": "ead422b6113fc1ba9dfb584b18f78e7017974009e6e29e4a279b2581cde7efee"
+    },
+    {
+      "id": "i-01-fundamentacao-pedagogica",
+      "title": "1. Fundamentação pedagógica",
+      "start": 8,
+      "end": 10,
+      "pages": 3,
+      "file": "pdfs/abare/i-01-fundamentacao-pedagogica.pdf",
+      "bytes": 147087,
+      "sha256": "d882769e5118ebf20338fae9d5d79b5337558863e75b8aa26a80bb379114f712"
+    },
+    {
+      "id": "i-02-objetivos-e-bncc",
+      "title": "2. Objetivos da sequência didática e BNCC",
+      "start": 11,
+      "end": 12,
+      "pages": 2,
+      "file": "pdfs/abare/i-02-objetivos-e-bncc.pdf",
+      "bytes": 165924,
+      "sha256": "e441cadb8ad29ee77e3dbf0e67f57cea4ab199024a3d4aad144b23c053fef2eb"
+    },
+    {
+      "id": "i-03-organizacao-das-aulas",
+      "title": "3. Organização das aulas",
+      "start": 13,
+      "end": 14,
+      "pages": 2,
+      "file": "pdfs/abare/i-03-organizacao-das-aulas.pdf",
+      "bytes": 225236,
+      "sha256": "3fc686cfd2c3dfede6cae8da9aef1fe21fe673b3c0ffdc11acfaa75b31429bcf"
+    },
+    {
+      "id": "i-04-descricao-das-etapas",
+      "title": "4. Descrição das etapas",
+      "start": 15,
+      "end": 20,
+      "pages": 6,
+      "file": "pdfs/abare/i-04-descricao-das-etapas.pdf",
+      "bytes": 379570,
+      "sha256": "1932872f1c9b9dba06944f66b07367fb1cbf84ea82583ab230619187cdda2f1b"
+    },
+    {
+      "id": "i-05-atividades-complementares",
+      "title": "5. Atividades complementares",
+      "start": 21,
+      "end": 22,
+      "pages": 2,
+      "file": "pdfs/abare/i-05-atividades-complementares.pdf",
+      "bytes": 132704,
+      "sha256": "2f102c025080498945b846ef59ac9582f01daae98c3ca301f8035eb473f5b2a6"
+    },
+    {
+      "id": "i-06-instrumentos-de-avaliacao",
+      "title": "6. Instrumentos de avaliação completos",
+      "start": 23,
+      "end": 33,
+      "pages": 11,
+      "file": "pdfs/abare/i-06-instrumentos-de-avaliacao.pdf",
+      "bytes": 5826113,
+      "sha256": "3512ab147c497a43b1a258e5d4a865f069c440a601d276be3863d0a4ae1fa052"
+    },
+    {
+      "id": "i-07-orientacoes-para-adaptacao",
+      "title": "7. Orientações para adaptação",
+      "start": 34,
+      "end": 35,
+      "pages": 2,
+      "file": "pdfs/abare/i-07-orientacoes-para-adaptacao.pdf",
+      "bytes": 126813,
+      "sha256": "9bc81a6ed76d0a18907dc7b629e1eaaea6f961eb1839bd8ebbe0972304e806ee"
+    },
+    {
+      "id": "i-08-referencias",
+      "title": "8. Referências",
+      "start": 36,
+      "end": 36,
+      "pages": 1,
+      "file": "pdfs/abare/i-08-referencias.pdf",
+      "bytes": 95036,
+      "sha256": "ab0995f7b1b7e29ca14907b2121867c2afc9f80b1acaa01931a903b934dc1e09"
+    },
+    {
+      "id": "ii-01-ficha-investigativa-de-campo",
+      "title": "1. Ficha investigativa de campo",
+      "start": 38,
+      "end": 38,
+      "pages": 1,
+      "file": "pdfs/abare/ii-01-ficha-investigativa-de-campo.pdf",
+      "bytes": 190896,
+      "sha256": "125584d2f5e78ef3baf0c5efb070922a729def54bf8fc23d9cf60f08ee77ba91"
+    },
+    {
+      "id": "ii-02-atividades-orientadas-por-etapa",
+      "title": "2. Atividades orientadas por etapa",
+      "start": 39,
+      "end": 39,
+      "pages": 1,
+      "file": "pdfs/abare/ii-02-atividades-orientadas-por-etapa.pdf",
+      "bytes": 117940,
+      "sha256": "e6f32fc56c2821449e6320d77e7852c1707b63c6405d6e82576bb98a6519817e"
+    },
+    {
+      "id": "ii-03-problemas-geometricos",
+      "title": "3. Problemas geométricos contextualizados",
+      "start": 40,
+      "end": 40,
+      "pages": 1,
+      "file": "pdfs/abare/ii-03-problemas-geometricos.pdf",
+      "bytes": 114372,
+      "sha256": "0f0eab7211393e17dd686f8270715c37f31cd786f1449848eb9cca50c21146d5"
+    },
+    {
+      "id": "ii-04-roteiro-geogebra",
+      "title": "4. Roteiro para construção no GeoGebra",
+      "start": 41,
+      "end": 42,
+      "pages": 2,
+      "file": "pdfs/abare/ii-04-roteiro-geogebra.pdf",
+      "bytes": 128097,
+      "sha256": "2ae889e667f083a3764f2556ce8f21b5e185d7f519ea08b9afeb29fa6a85db88"
+    },
+    {
+      "id": "ii-05-modelo-relatorio-final",
+      "title": "5. Modelo de relatório final",
+      "start": 43,
+      "end": 44,
+      "pages": 2,
+      "file": "pdfs/abare/ii-05-modelo-relatorio-final.pdf",
+      "bytes": 227501,
+      "sha256": "38869ca4e1a7f403c4a08a69b10fb2217755cde034374e6ffec5f3de4a2b12b0"
+    },
+    {
+      "id": "ii-06-autoavaliacao",
+      "title": "6. Autoavaliação do estudante",
+      "start": 45,
+      "end": 46,
+      "pages": 2,
+      "file": "pdfs/abare/ii-06-autoavaliacao.pdf",
+      "bytes": 227269,
+      "sha256": "d2329287e5b0a543d7811ad0e5cf8c44bbd7fb7f0fbbed82234c6b5d56701a13"
+    },
+    {
+      "id": "etapa-01-sensibilizacao",
+      "title": "Etapa 1 — Sensibilização e problematização",
+      "start": 15,
+      "end": 16,
+      "pages": 2,
+      "file": "pdfs/abare/etapa-01-sensibilizacao.pdf",
+      "bytes": 154874,
+      "sha256": "e6716e42a972916c9ce2f44c450f27bbcc5e1c0020d27aacaad0df2c1ab25e7d"
+    },
+    {
+      "id": "etapa-02-investigacao-em-campo",
+      "title": "Etapa 2 — Investigação em campo",
+      "start": 16,
+      "end": 17,
+      "pages": 2,
+      "file": "pdfs/abare/etapa-02-investigacao-em-campo.pdf",
+      "bytes": 139793,
+      "sha256": "d6f6777b4b3411ee58252f66660038d805b3590c59695c0be4ba1932bfe19b14"
+    },
+    {
+      "id": "etapa-03-modelagem-geogebra",
+      "title": "Etapa 3 — Modelagem dinâmica no GeoGebra",
+      "start": 17,
+      "end": 19,
+      "pages": 3,
+      "file": "pdfs/abare/etapa-03-modelagem-geogebra.pdf",
+      "bytes": 324044,
+      "sha256": "d04dc21bea3c3a2743a6ac3db105189dfe8ad065fe966cdf2df19bcf591637b9"
+    },
+    {
+      "id": "etapa-04-sistematizacao",
+      "title": "Etapa 4 — Sistematização e produção final",
+      "start": 20,
+      "end": 20,
+      "pages": 1,
+      "file": "pdfs/abare/etapa-04-sistematizacao.pdf",
+      "bytes": 120157,
+      "sha256": "60c8d6f99a478076c55a0365b46423b6ae44eb6cd4ff14b81b7278efbdb5bb9c"
+    },
+    {
+      "id": "avaliacao-01-diagnostico-inicial",
+      "title": "Diagnóstico inicial e matriz de análise",
+      "start": 23,
+      "end": 27,
+      "pages": 5,
+      "file": "pdfs/abare/avaliacao-01-diagnostico-inicial.pdf",
+      "bytes": 730605,
+      "sha256": "762be468cc4598350b71fb32284996373ebfc5faf7c44f06075f71186187f3bb"
+    },
+    {
+      "id": "avaliacao-02-observacao-professor",
+      "title": "Roteiro de observação do professor",
+      "start": 27,
+      "end": 28,
+      "pages": 2,
+      "file": "pdfs/abare/avaliacao-02-observacao-professor.pdf",
+      "bytes": 225722,
+      "sha256": "d24ab9b25f2198a746d750325eda4fbd4eeef56ad77cd6dc168c16ffb499e274"
+    },
+    {
+      "id": "avaliacao-03-acompanhamento-formativo",
+      "title": "Avaliação e acompanhamento formativo",
+      "start": 28,
+      "end": 29,
+      "pages": 2,
+      "file": "pdfs/abare/avaliacao-03-acompanhamento-formativo.pdf",
+      "bytes": 221357,
+      "sha256": "63bee33690b21f230938ce283da0675fdc2c6801f0f41a1d3ff0aa46520e927c"
+    },
+    {
+      "id": "avaliacao-04-diagnostico-final",
+      "title": "Instrumento diagnóstico final",
+      "start": 29,
+      "end": 32,
+      "pages": 4,
+      "file": "pdfs/abare/avaliacao-04-diagnostico-final.pdf",
+      "bytes": 5207356,
+      "sha256": "203d3d06a6df2933891caa018ff16848092c6df85f98607b518f568c8c6922b9"
+    },
+    {
+      "id": "avaliacao-05-rubrica-final",
+      "title": "Rubrica de apresentação e relatório final",
+      "start": 32,
+      "end": 33,
+      "pages": 2,
+      "file": "pdfs/abare/avaliacao-05-rubrica-final.pdf",
+      "bytes": 339525,
+      "sha256": "c167f1ded1ee161d933ffeb17a18eec096031a0f39222f3ad3be2b1be376d193"
+    }
+  ]
+}
