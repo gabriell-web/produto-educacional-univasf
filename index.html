@@ -3,194 +3,339 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#164c7e">
+  <meta name="theme-color" content="#7947df">
+
   <title>Geometria nas Fachadas de Abaré–BA</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="aviso">
-    <strong>PRÉVIA DO SITE</strong> · Organização baseada no caderno didático.
-    Materiais ainda não inseridos.
-  </div>
-
-  <header>
-    <div class="largura topo">
+  <header class="cabecalho">
+    <div class="container navegacao">
       <a class="marca" href="#inicio">
-        <span class="simbolo" aria-hidden="true">△</span>
-        <span>
-          <strong>PROFMAT · UNIVASF</strong>
-          <small>PRODUTO EDUCACIONAL</small>
-        </span>
+        <strong>UNIVASF</strong>
+        <span>Mestrado Profissional em Matemática · PROFMAT</span>
       </a>
 
       <nav aria-label="Navegação principal">
-        <a href="#materiais">Explorar material</a>
+        <a href="#materiais">Materiais</a>
         <a href="#sobre">Sobre o projeto</a>
       </nav>
     </div>
   </header>
 
-  <main class="largura">
-    <section class="apresentacao" id="inicio">
-      <div>
-        <span class="etiqueta">Caderno didático · Ensino Médio</span>
+  <main>
+    <section class="inicio" id="inicio">
+      <div class="container abertura">
+        <div class="texto-inicial">
+          <span class="etiqueta">Caderno didático</span>
 
-        <h1>
-          Geometria nas<br>
-          fachadas de<br>
-          <span>Abaré–BA.</span>
-        </h1>
+          <h1>
+            Elementos<br>
+            Geométricos<br>
+            nas <span>Fachadas</span><br>
+            de Abaré–BA
+          </h1>
 
-        <p class="descricao">
-          Elementos geométricos nas fachadas do patrimônio arquitetônico
-          de Abaré–BA: uma proposta didática para o ensino de Geometria
-          no Ensino Médio.
-        </p>
+          <p>
+            Uma proposta para enxergar geometria nas ruas da sua cidade —
+            na prática, com GeoGebra e muita investigação.
+          </p>
 
-        <a class="botao-principal" href="#materiais">
-          Explorar o material <span aria-hidden="true">↓</span>
-        </a>
+          <a class="botao-principal" href="#materiais">
+            Explorar o material
+            <span aria-hidden="true">↗</span>
+          </a>
 
-        <p class="autoria">
-          Eliel Augusto de Souza Santos<br>
-          Mestrado Profissional em Matemática · UNIVASF
-        </p>
-      </div>
+          <div class="autor-inicial">
+            <strong>Eliel Augusto de Souza Santos</strong>
+            <span>Orientador: Prof. Dr. Lino Marcos Silva</span>
+          </div>
+        </div>
 
-      <div class="ilustracao" aria-hidden="true">
-        <div class="capa">
-          <small>CADERNO DIDÁTICO</small>
-          <hr>
-          <strong>
-            Geometria,<br>
-            patrimônio e<br>
-            aprendizagem.
-          </strong>
-          <p>ABARÉ–BA<br>PROFMAT · UNIVASF · 2026</p>
+        <div class="arte-inicial" aria-hidden="true">
+          <span class="forma triangulo"></span>
+          <span class="forma circulo"></span>
+          <span class="forma quadrado"></span>
+          <span class="forma anel"></span>
+
+          <div class="painel-fachada">
+            <span class="legenda-arte">PATRIMÔNIO + GEOMETRIA</span>
+
+            <svg
+              class="fachada"
+              viewBox="0 0 440 250"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M35 105H405"/>
+
+                <path
+                  d="M48 94H95V78H135V94H186L220 60L254 94H305V78H345V94H392"
+                />
+
+                <path d="M50 105V215H390V105"/>
+
+                <path d="M82 127H140V183H82Z"/>
+                <path d="M300 127H358V183H300Z"/>
+
+                <path d="M194 215V145H246V215"/>
+                <path d="M220 145V215"/>
+
+                <path d="M111 127V183"/>
+                <path d="M329 127V183"/>
+              </g>
+
+              <path d="M205 76L220 61L235 76Z" fill="#ffd23f"/>
+
+              <rect x="207" y="162" width="26" height="26" fill="#8b63eb"/>
+              <circle cx="111" cy="155" r="9" fill="#00cbb5"/>
+              <circle cx="329" cy="155" r="9" fill="#ff694f"/>
+
+              <path
+                d="M220 38V227"
+                fill="none"
+                stroke="#ffd23f"
+                stroke-width="3"
+                stroke-dasharray="8 8"
+              />
+            </svg>
+
+            <div class="conceitos">
+              <span>Formas</span>
+              <span>Simetria</span>
+              <span>Investigação</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="materiais" id="materiais">
-      <div class="cabecalho-secao">
-        <div>
-          <span class="sobretitulo">Explore por seção</span>
-          <h2>Por onde você quer começar?</h2>
-        </div>
+    <section class="materiais container" id="materiais">
+      <div class="titulo-secao">
+        <span class="numero-secao">1</span>
 
-        <p>Escolha uma seção para visualizar como o material será organizado.</p>
+        <div>
+          <span class="sobretitulo">Explore o caderno</span>
+          <h2>Conhecimento em cada fachada.</h2>
+        </div>
       </div>
 
+      <p class="introducao-secao">
+        Escolha uma seção para conhecer a organização da proposta.
+      </p>
+
       <div class="grade">
-        <button class="cartao" data-secao="professor">
-          <span class="cartao-topo">
-            <span class="numero">01</span>
-            <span class="categoria">Parte I</span>
+        <button class="cartao cartao-roxo" data-secao="professor">
+          <span class="topo-cartao">
+            <span class="etiqueta">Parte I</span>
+            <span class="icone-forma icone-triangulo" aria-hidden="true"></span>
           </span>
+
           <h3>Guia do professor</h3>
-          <p>Fundamentação pedagógica, objetivos, habilidades da BNCC, planejamento e adaptações.</p>
-          <span class="acao">Explorar o guia <span aria-hidden="true">→</span></span>
+
+          <p>
+            Fundamentação, planejamento das aulas e orientações
+            para aplicação da proposta.
+          </p>
+
+          <span class="acao">
+            Explorar o guia
+            <span aria-hidden="true">↗</span>
+          </span>
         </button>
 
-        <button class="cartao destaque" data-secao="sequencia">
-          <span class="cartao-topo">
-            <span class="numero">02</span>
+        <button class="cartao" data-secao="sequencia">
+          <span class="topo-cartao">
             <span class="categoria">4 etapas · 8 aulas</span>
+            <span class="icone-forma icone-circulo" aria-hidden="true"></span>
           </span>
+
           <h3>Sequência didática</h3>
-          <p>Da observação das fachadas à investigação em campo, modelagem e sistematização.</p>
-          <span class="acao">Conhecer as etapas <span aria-hidden="true">→</span></span>
+
+          <p>
+            Observação, investigação em campo, modelagem
+            no GeoGebra e produção final.
+          </p>
+
+          <span class="acao">
+            Conhecer as etapas
+            <span aria-hidden="true">↗</span>
+          </span>
         </button>
 
         <button class="cartao" data-secao="estudante">
-          <span class="cartao-topo">
-            <span class="numero">03</span>
+          <span class="topo-cartao">
             <span class="categoria">Parte II</span>
+            <span class="icone-forma icone-quadrado" aria-hidden="true"></span>
           </span>
+
           <h3>Material do estudante</h3>
-          <p>Fichas investigativas, atividades, problemas contextualizados, relatório e autoavaliação.</p>
-          <span class="acao">Explorar as atividades <span aria-hidden="true">→</span></span>
+
+          <p>
+            Fichas investigativas, atividades, problemas
+            contextualizados e autoavaliação.
+          </p>
+
+          <span class="acao">
+            Explorar atividades
+            <span aria-hidden="true">↗</span>
+          </span>
         </button>
 
         <button class="cartao" data-secao="geogebra">
-          <span class="cartao-topo">
-            <span class="numero">04</span>
-            <span class="categoria">Modelagem</span>
+          <span class="topo-cartao">
+            <span class="categoria">Modelagem dinâmica</span>
+            <span class="icone-forma icone-anel" aria-hidden="true"></span>
           </span>
+
           <h3>Roteiros do GeoGebra</h3>
-          <p>Construções de polígonos, circunferência e simetria axial.</p>
-          <span class="acao">Conhecer os roteiros <span aria-hidden="true">→</span></span>
+
+          <p>
+            Construção de polígonos, circunferências e
+            investigação da simetria axial.
+          </p>
+
+          <span class="acao">
+            Conhecer os roteiros
+            <span aria-hidden="true">↗</span>
+          </span>
         </button>
 
         <button class="cartao" data-secao="avaliacao">
-          <span class="cartao-topo">
-            <span class="numero">05</span>
+          <span class="topo-cartao">
             <span class="categoria">Acompanhamento</span>
+            <span class="icone-forma icone-triangulo" aria-hidden="true"></span>
           </span>
+
           <h3>Instrumentos de avaliação</h3>
-          <p>Diagnóstico inicial e final, observação, acompanhamento formativo e rubricas.</p>
-          <span class="acao">Ver os instrumentos <span aria-hidden="true">→</span></span>
+
+          <p>
+            Diagnósticos, observação, acompanhamento
+            formativo e rubricas de avaliação.
+          </p>
+
+          <span class="acao">
+            Ver os instrumentos
+            <span aria-hidden="true">↗</span>
+          </span>
         </button>
 
         <button class="cartao" data-secao="referencias">
-          <span class="cartao-topo">
-            <span class="numero">06</span>
+          <span class="topo-cartao">
             <span class="categoria">Consulta</span>
+            <span class="icone-forma icone-circulo coral" aria-hidden="true"></span>
           </span>
+
           <h3>Referências e caderno</h3>
-          <p>Referências bibliográficas e acesso ao caderno didático completo.</p>
-          <span class="acao">Explorar documentos <span aria-hidden="true">→</span></span>
+
+          <p>
+            Fontes bibliográficas e espaço para acesso
+            à versão completa do caderno didático.
+          </p>
+
+          <span class="acao">
+            Explorar documentos
+            <span aria-hidden="true">↗</span>
+          </span>
         </button>
       </div>
 
-      <div class="nota">
-        <strong>Esboço de organização:</strong>
-        os botões apresentam divisões identificadas no caderno didático.
-        Os arquivos e as atividades serão inseridos depois.
-      </div>
+      <p class="nota-previa">
+        <span aria-hidden="true"></span>
+        Prévia de organização: os materiais serão adicionados posteriormente.
+      </p>
     </section>
 
     <section class="sobre" id="sobre">
-      <div>
-        <h2>Sobre o produto educacional</h2>
-        <p>
-          Proposta organizada em quatro etapas e oito aulas, articulando
-          patrimônio arquitetônico, pensamento geométrico de Van Hiele
-          e modelagem no GeoGebra.
-        </p>
-      </div>
+      <div class="container sobre-conteudo">
+        <div>
+          <span class="etiqueta">Sobre o projeto</span>
 
-      <div class="creditos">
-        <p>
-          <strong>Autor:</strong> Eliel Augusto de Souza Santos<br>
-          <strong>Orientador:</strong> Prof. Dr. Lino Marcos Silva<br>
-          UNIVASF · PROFMAT<br>
-          Juazeiro–BA, 2026
-        </p>
+          <h2>
+            Um novo olhar<br>
+            para a <span>geometria.</span>
+          </h2>
+
+          <p>
+            Uma proposta didática para o ensino de Geometria no Ensino Médio,
+            a partir das fachadas do patrimônio arquitetônico de Abaré–BA.
+          </p>
+
+          <p>
+            O percurso articula investigação do espaço, níveis de pensamento
+            geométrico de Van Hiele e modelagem dinâmica no GeoGebra.
+          </p>
+        </div>
+
+        <div class="ficha-projeto">
+          <div>
+            <span>Autor</span>
+            <strong>Eliel Augusto de Souza Santos</strong>
+          </div>
+
+          <div>
+            <span>Orientador</span>
+            <strong>Prof. Dr. Lino Marcos Silva</strong>
+          </div>
+
+          <div>
+            <span>Instituição e programa</span>
+            <strong>UNIVASF · PROFMAT</strong>
+          </div>
+
+          <div>
+            <span>Local e ano</span>
+            <strong>Juazeiro–BA · 2026</strong>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="largura">Produto educacional · PROFMAT / UNIVASF · 2026</div>
+    <div class="container rodape">
+      <strong>UNIVASF · PROFMAT</strong>
+      <span>Produto educacional · Caderno didático · 2026</span>
+    </div>
   </footer>
 
-  <dialog id="janela" aria-labelledby="janela-titulo">
+  <dialog
+    id="janela"
+    aria-labelledby="janela-titulo"
+    aria-describedby="janela-descricao"
+  >
     <div class="janela-topo">
       <div>
-        <span class="sobretitulo">Organização da seção</span>
+        <span class="etiqueta">Explore a seção</span>
         <h2 id="janela-titulo"></h2>
       </div>
-      <button class="fechar" id="fechar" aria-label="Fechar seção">×</button>
+
+      <button
+        type="button"
+        class="fechar"
+        id="fechar"
+        aria-label="Fechar seção"
+        autofocus
+      >
+        ×
+      </button>
     </div>
 
     <div class="janela-conteudo">
       <p id="janela-descricao"></p>
-      <ul class="lista-secoes" id="lista-secoes"></ul>
-      <div class="reserva">
-        Prévia da organização. Os materiais desta seção ainda não foram adicionados.
-      </div>
+      <ul id="lista-secoes" class="lista-secoes"></ul>
+
+      <p class="reserva">
+        Os arquivos desta seção serão disponibilizados posteriormente.
+      </p>
     </div>
   </dialog>
 
@@ -207,9 +352,10 @@
           "Orientações para adaptação"
         ]
       },
+
       sequencia: {
         titulo: "Sequência didática",
-        descricao: "Percurso organizado em quatro etapas, distribuídas em oito aulas.",
+        descricao: "Quatro etapas distribuídas em oito aulas.",
         itens: [
           "Etapa 1 — Sensibilização e problematização · Aulas 1 e 2",
           "Etapa 2 — Investigação em campo · Aulas 3 e 4",
@@ -217,9 +363,10 @@
           "Etapa 4 — Sistematização e produção final · Aula 8"
         ]
       },
+
       estudante: {
         titulo: "Material do estudante",
-        descricao: "Fichas e atividades destinadas ao uso direto pelos estudantes.",
+        descricao: "Fichas e atividades para o desenvolvimento das investigações.",
         itens: [
           "Ficha investigativa de campo",
           "Atividades orientadas por etapa",
@@ -228,18 +375,20 @@
           "Autoavaliação do estudante"
         ]
       },
+
       geogebra: {
         titulo: "Roteiros do GeoGebra",
-        descricao: "Roteiros de construção organizados por conteúdo geométrico.",
+        descricao: "Explorações organizadas por conteúdo geométrico.",
         itens: [
           "Parte A — Modelando um polígono · Aula 5",
           "Parte B — Modelando uma circunferência · Aula 6",
           "Parte C — Modelando simetria axial · Aula 7"
         ]
       },
+
       avaliacao: {
         titulo: "Instrumentos de avaliação",
-        descricao: "Recursos para acompanhar a aprendizagem ao longo da sequência.",
+        descricao: "Recursos para acompanhar a aprendizagem durante a sequência.",
         itens: [
           "Ficha diagnóstica inicial — Pré-teste",
           "Matriz de análise dos níveis de Van Hiele",
@@ -249,9 +398,10 @@
           "Rubrica de apresentação e relatório dos grupos"
         ]
       },
+
       referencias: {
         titulo: "Referências e caderno",
-        descricao: "Espaço para as fontes bibliográficas e para o produto completo.",
+        descricao: "Fontes bibliográficas e acesso ao produto educacional.",
         itens: [
           "Referências bibliográficas",
           "Caderno didático completo em PDF"
@@ -272,13 +422,21 @@
         descricao.textContent = secao.descricao;
         lista.replaceChildren();
 
-        secao.itens.forEach((texto) => {
+        secao.itens.forEach((texto, indice) => {
           const item = document.createElement("li");
+          const numero = document.createElement("span");
+          const conteudo = document.createElement("div");
+          const nome = document.createElement("strong");
           const aviso = document.createElement("small");
 
-          item.textContent = texto;
+          numero.className = "numero-item";
+          numero.textContent = String(indice + 1).padStart(2, "0");
+
+          nome.textContent = texto;
           aviso.textContent = "Material a inserir";
-          item.appendChild(aviso);
+
+          conteudo.append(nome, aviso);
+          item.append(numero, conteudo);
           lista.appendChild(item);
         });
 
@@ -288,6 +446,20 @@
 
     document.getElementById("fechar").addEventListener("click", () => {
       janela.close();
+    });
+
+    janela.addEventListener("click", (evento) => {
+      if (evento.target !== janela) return;
+
+      const limites = janela.getBoundingClientRect();
+
+      const fora =
+        evento.clientX < limites.left ||
+        evento.clientX > limites.right ||
+        evento.clientY < limites.top ||
+        evento.clientY > limites.bottom;
+
+      if (fora) janela.close();
     });
   </script>
 </body>
