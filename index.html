@@ -1,164 +1,295 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0d47a1">
-    <title>Produto Educacional | PROFMAT · UNIVASF</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#164c7e">
+  <title>Geometria nas Fachadas de Abaré–BA</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+  <div class="aviso">
+    <strong>PRÉVIA DO SITE</strong> · Organização baseada no caderno didático.
+    Materiais ainda não inseridos.
+  </div>
 
-    <header class="topo">
-        <div class="largura topo-conteudo">
-            <a class="marca" href="index.html" aria-label="Página inicial">
-                <span class="marca-simbolo" aria-hidden="true">∑</span>
-                <span>
-                    <strong>PROFMAT</strong>
-                    <small>UNIVASF</small>
-                </span>
-            </a>
+  <header>
+    <div class="largura topo">
+      <a class="marca" href="#inicio">
+        <span class="simbolo" aria-hidden="true">△</span>
+        <span>
+          <strong>PROFMAT · UNIVASF</strong>
+          <small>PRODUTO EDUCACIONAL</small>
+        </span>
+      </a>
 
-            <span class="topo-legenda">Matemática &amp; Educação</span>
+      <nav aria-label="Navegação principal">
+        <a href="#materiais">Explorar material</a>
+        <a href="#sobre">Sobre o projeto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="largura">
+    <section class="apresentacao" id="inicio">
+      <div>
+        <span class="etiqueta">Caderno didático · Ensino Médio</span>
+
+        <h1>
+          Geometria nas<br>
+          fachadas de<br>
+          <span>Abaré–BA.</span>
+        </h1>
+
+        <p class="descricao">
+          Elementos geométricos nas fachadas do patrimônio arquitetônico
+          de Abaré–BA: uma proposta didática para o ensino de Geometria
+          no Ensino Médio.
+        </p>
+
+        <a class="botao-principal" href="#materiais">
+          Explorar o material <span aria-hidden="true">↓</span>
+        </a>
+
+        <p class="autoria">
+          Eliel Augusto de Souza Santos<br>
+          Mestrado Profissional em Matemática · UNIVASF
+        </p>
+      </div>
+
+      <div class="ilustracao" aria-hidden="true">
+        <div class="capa">
+          <small>CADERNO DIDÁTICO</small>
+          <hr>
+          <strong>
+            Geometria,<br>
+            patrimônio e<br>
+            aprendizagem.
+          </strong>
+          <p>ABARÉ–BA<br>PROFMAT · UNIVASF · 2026</p>
         </div>
-    </header>
+      </div>
+    </section>
 
-    <main id="conteudo" class="largura principal">
-        <section class="apresentacao" aria-labelledby="titulo">
-            <div class="apresentacao-texto">
-                <span class="etiqueta">RECURSOS PARA APRENDER E ENSINAR</span>
-
-                <h1 id="titulo">Produto<br><span>Educacional</span></h1>
-
-                <p class="subtitulo">
-                    Mestrado Profissional em Matemática<br>
-                    PROFMAT / UNIVASF
-                </p>
-
-                <p class="descricao">
-                    Explore a teoria dos grafos, conheça a sequência didática
-                    e coloque o conhecimento em prática.
-                </p>
-            </div>
-
-            <div class="ilustracao" aria-hidden="true">
-                <svg viewBox="0 0 320 280" fill="none">
-                    <circle cx="160" cy="140" r="110" class="orbita"/>
-                    <circle cx="160" cy="140" r="78" class="orbita"/>
-
-                    <g class="arestas">
-                        <path d="M65 85L160 45L260 100L235 215L115 235L65 85Z"/>
-                        <path d="M65 85L160 145L260 100M160 45L160 145L235 215"/>
-                        <path d="M115 235L160 145"/>
-                    </g>
-
-                    <g class="vertices">
-                        <circle cx="65" cy="85" r="12"/>
-                        <circle cx="160" cy="45" r="12"/>
-                        <circle cx="260" cy="100" r="12"/>
-                        <circle cx="235" cy="215" r="12"/>
-                        <circle cx="115" cy="235" r="12"/>
-                    </g>
-
-                    <circle cx="160" cy="145" r="19" fill="#ffcc00"/>
-                    <circle cx="160" cy="145" r="7" fill="#123764"/>
-                </svg>
-
-                <span class="ilustracao-legenda">
-                    Conectando ideias e conhecimento
-                </span>
-            </div>
-        </section>
-
-        <section class="materiais" aria-labelledby="titulo-materiais">
-            <div class="secao-cabecalho">
-                <div>
-                    <span class="sobretitulo">SEU PERCURSO DE ESTUDO</span>
-                    <h2 id="titulo-materiais">Por onde vamos começar?</h2>
-                </div>
-
-                <span class="secao-nota">Escolha um material abaixo</span>
-            </div>
-
-            <div class="grade">
-                <a
-                    class="cartao"
-                    href="pdfs/teoria-dos-grafos.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <div class="cartao-topo">
-                        <span class="icone" aria-hidden="true">01</span>
-                        <span class="formato">PDF ↗</span>
-                    </div>
-
-                    <h3>Teoria dos Grafos</h3>
-
-                    <p>
-                        Explore os conceitos e fundamentos que orientam nosso estudo.
-                    </p>
-
-                    <span class="cartao-acao">
-                        Explorar a teoria
-                        <span aria-hidden="true">→</span>
-                    </span>
-
-                    <span class="sr-only">Abre um PDF em nova aba.</span>
-                </a>
-
-                <a
-                    class="cartao"
-                    href="pdfs/sequencia-didatica.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <div class="cartao-topo">
-                        <span class="icone" aria-hidden="true">02</span>
-                        <span class="formato">PDF ↗</span>
-                    </div>
-
-                    <h3>Sequência Didática</h3>
-
-                    <p>
-                        Conheça a proposta e acompanhe as etapas de aprendizagem.
-                    </p>
-
-                    <span class="cartao-acao">
-                        Conhecer a sequência
-                        <span aria-hidden="true">→</span>
-                    </span>
-
-                    <span class="sr-only">Abre um PDF em nova aba.</span>
-                </a>
-
-                <a class="cartao cartao-destaque" href="atividades.html">
-                    <div class="cartao-topo">
-                        <span class="icone" aria-hidden="true">03</span>
-                        <span class="formato">PRÁTICA</span>
-                    </div>
-
-                    <h3>Atividades</h3>
-
-                    <p>
-                        Coloque as ideias em ação com os materiais de cada atividade.
-                    </p>
-
-                    <span class="cartao-acao">
-                        Ver atividades
-                        <span aria-hidden="true">→</span>
-                    </span>
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="rodape">
-        <div class="largura rodape-conteudo">
-            <span><strong>PROFMAT</strong> · UNIVASF</span>
-            <p>© 2026 · Universidade Federal do Vale do São Francisco</p>
+    <section class="materiais" id="materiais">
+      <div class="cabecalho-secao">
+        <div>
+          <span class="sobretitulo">Explore por seção</span>
+          <h2>Por onde você quer começar?</h2>
         </div>
-    </footer>
+        <p>Escolha uma seção para visualizar como o material será organizado.</p>
+      </div>
+
+      <div class="grade">
+        <button class="cartao" data-secao="professor">
+          <span class="cartao-topo">
+            <span class="numero">01</span>
+            <span class="categoria">Parte I</span>
+          </span>
+          <h3>Guia do professor</h3>
+          <p>Fundamentação pedagógica, objetivos, habilidades da BNCC, planejamento e adaptações.</p>
+          <span class="acao">Explorar o guia <span aria-hidden="true">→</span></span>
+        </button>
+
+        <button class="cartao destaque" data-secao="sequencia">
+          <span class="cartao-topo">
+            <span class="numero">02</span>
+            <span class="categoria">4 etapas · 8 aulas</span>
+          </span>
+          <h3>Sequência didática</h3>
+          <p>Da observação das fachadas à investigação em campo, modelagem e sistematização.</p>
+          <span class="acao">Conhecer as etapas <span aria-hidden="true">→</span></span>
+        </button>
+
+        <button class="cartao" data-secao="estudante">
+          <span class="cartao-topo">
+            <span class="numero">03</span>
+            <span class="categoria">Parte II</span>
+          </span>
+          <h3>Material do estudante</h3>
+          <p>Fichas investigativas, atividades, problemas contextualizados, relatório e autoavaliação.</p>
+          <span class="acao">Explorar as atividades <span aria-hidden="true">→</span></span>
+        </button>
+
+        <button class="cartao" data-secao="geogebra">
+          <span class="cartao-topo">
+            <span class="numero">04</span>
+            <span class="categoria">Modelagem</span>
+          </span>
+          <h3>Roteiros do GeoGebra</h3>
+          <p>Construções de polígonos, circunferência e simetria axial.</p>
+          <span class="acao">Conhecer os roteiros <span aria-hidden="true">→</span></span>
+        </button>
+
+        <button class="cartao" data-secao="avaliacao">
+          <span class="cartao-topo">
+            <span class="numero">05</span>
+            <span class="categoria">Acompanhamento</span>
+          </span>
+          <h3>Instrumentos de avaliação</h3>
+          <p>Diagnóstico inicial e final, observação, acompanhamento formativo e rubricas.</p>
+          <span class="acao">Ver os instrumentos <span aria-hidden="true">→</span></span>
+        </button>
+
+        <button class="cartao" data-secao="referencias">
+          <span class="cartao-topo">
+            <span class="numero">06</span>
+            <span class="categoria">Consulta</span>
+          </span>
+          <h3>Referências e caderno</h3>
+          <p>Referências bibliográficas e acesso ao caderno didático completo.</p>
+          <span class="acao">Explorar documentos <span aria-hidden="true">→</span></span>
+        </button>
+      </div>
+
+      <div class="nota">
+        <strong>Esboço de organização:</strong>
+        os botões apresentam divisões identificadas no caderno didático.
+        Os arquivos e as atividades serão inseridos depois.
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <div>
+        <h2>Sobre o produto educacional</h2>
+        <p>
+          Proposta organizada em quatro etapas e oito aulas, articulando
+          patrimônio arquitetônico, pensamento geométrico de Van Hiele
+          e modelagem no GeoGebra.
+        </p>
+      </div>
+
+      <div class="creditos">
+        <p>
+          <strong>Autor:</strong> Eliel Augusto de Souza Santos<br>
+          <strong>Orientador:</strong> Prof. Dr. Lino Marcos Silva<br>
+          UNIVASF · PROFMAT<br>
+          Juazeiro–BA, 2026
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="largura">
+      Produto educacional · PROFMAT / UNIVASF · 2026
+    </div>
+  </footer>
+
+  <dialog id="janela" aria-labelledby="janela-titulo">
+    <div class="janela-topo">
+      <div>
+        <span class="sobretitulo">Organização da seção</span>
+        <h2 id="janela-titulo"></h2>
+      </div>
+      <button class="fechar" id="fechar" aria-label="Fechar seção">×</button>
+    </div>
+
+    <div class="janela-conteudo">
+      <p id="janela-descricao"></p>
+      <ul class="lista-secoes" id="lista-secoes"></ul>
+      <div class="reserva">
+        Prévia da organização. Os materiais desta seção ainda não foram adicionados.
+      </div>
+    </div>
+  </dialog>
+
+  <script>
+    const secoes = {
+      professor: {
+        titulo: "Guia do professor",
+        descricao: "Fundamentos e orientações para aplicação da proposta.",
+        itens: [
+          "Fundamentação pedagógica",
+          "Objetivos da sequência e habilidades da BNCC",
+          "Organização e planejamento das aulas",
+          "Atividades complementares",
+          "Orientações para adaptação"
+        ]
+      },
+      sequencia: {
+        titulo: "Sequência didática",
+        descricao: "Percurso organizado em quatro etapas, distribuídas em oito aulas.",
+        itens: [
+          "Etapa 1 — Sensibilização e problematização · Aulas 1 e 2",
+          "Etapa 2 — Investigação em campo · Aulas 3 e 4",
+          "Etapa 3 — Modelagem dinâmica no GeoGebra · Aulas 5, 6 e 7",
+          "Etapa 4 — Sistematização e produção final · Aula 8"
+        ]
+      },
+      estudante: {
+        titulo: "Material do estudante",
+        descricao: "Fichas e atividades destinadas ao uso direto pelos estudantes.",
+        itens: [
+          "Ficha investigativa de campo",
+          "Atividades orientadas por etapa",
+          "Problemas geométricos contextualizados",
+          "Modelo de relatório final",
+          "Autoavaliação do estudante"
+        ]
+      },
+      geogebra: {
+        titulo: "Roteiros do GeoGebra",
+        descricao: "Roteiros de construção organizados por conteúdo geométrico.",
+        itens: [
+          "Parte A — Modelando um polígono · Aula 5",
+          "Parte B — Modelando uma circunferência · Aula 6",
+          "Parte C — Modelando simetria axial · Aula 7"
+        ]
+      },
+      avaliacao: {
+        titulo: "Instrumentos de avaliação",
+        descricao: "Recursos para acompanhar a aprendizagem ao longo da sequência.",
+        itens: [
+          "Ficha diagnóstica inicial — Pré-teste",
+          "Matriz de análise dos níveis de Van Hiele",
+          "Roteiro de observação do professor",
+          "Ficha de acompanhamento formativo",
+          "Ficha diagnóstica final — Pós-teste",
+          "Rubrica de apresentação e relatório dos grupos"
+        ]
+      },
+      referencias: {
+        titulo: "Referências e caderno",
+        descricao: "Espaço para as fontes bibliográficas e para o produto completo.",
+        itens: [
+          "Referências bibliográficas",
+          "Caderno didático completo em PDF"
+        ]
+      }
+    };
+
+    const janela = document.getElementById("janela");
+    const titulo = document.getElementById("janela-titulo");
+    const descricao = document.getElementById("janela-descricao");
+    const lista = document.getElementById("lista-secoes");
+
+    document.querySelectorAll("[data-secao]").forEach((botao) => {
+      botao.addEventListener("click", () => {
+        const secao = secoes[botao.dataset.secao];
+
+        titulo.textContent = secao.titulo;
+        descricao.textContent = secao.descricao;
+        lista.replaceChildren();
+
+        secao.itens.forEach((texto) => {
+          const item = document.createElement("li");
+          const aviso = document.createElement("small");
+
+          item.textContent = texto;
+          aviso.textContent = "Material a inserir";
+          item.appendChild(aviso);
+          lista.appendChild(item);
+        });
+
+        janela.showModal();
+      });
+    });
+
+    document.getElementById("fechar").addEventListener("click", () => {
+      janela.close();
+    });
+  </script>
 </body>
 </html>
